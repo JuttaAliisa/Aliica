@@ -43,6 +43,15 @@ h1 {
     list-style-type: none;
 }
 
+/*Navbar styling*/
+nav {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: right;
+    padding-right: 5%;
+    display: none;
+}
 
 /*Main content*/
 main {
