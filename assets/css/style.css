@@ -20,11 +20,23 @@ body {
 
 /*Header*/
 header {
-    background-color: blue;
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
 }
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
 h1 {
     font-family: 'Amatic SC', sans-serif;
+    letter-spacing: 2px;
+    padding-left: 10%;
+    font-size: 300%;
 }
+
 
 /*Main content*/
 main {
