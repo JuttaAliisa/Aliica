@@ -22,6 +22,9 @@ body {
 header {
     background-color: blue;
 }
+h1 {
+    font-family: 'Amatic SC', sans-serif;
+}
 
 /*Main content*/
 main {
