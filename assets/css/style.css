@@ -64,6 +64,12 @@ h1 {
     list-style-type: none;
 }
 
+h2 {
+    font-family: 'Amatic SC', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
 /*Navbar styling*/
 nav {
     position: absolute;
@@ -97,6 +103,7 @@ main {
     margin-top: 61px;
 }
 
+/*Banner content*/
 #banner p {
     background-color: #cccccc;
     background-image: linear-gradient(white, green);
