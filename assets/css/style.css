@@ -100,12 +100,7 @@ footer {
     background-color: darkseagreen;
     padding: 5px;
     position: sticky;
-}
-
-footer button {
-    float: right;
-}
-
-#footer-info {
-    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
