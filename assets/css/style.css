@@ -91,10 +91,19 @@ nav {
 
 /*Main content*/
 main {
-    background-color: coral;
+    background-color: #FFFFFF;
     /*This is to push the footer down*/
     flex: 1 0 auto;
     margin-top: 61px;
+}
+
+#banner p {
+    background-color: #cccccc;
+    background-image: linear-gradient(white, green);
+}
+
+#banner img {
+    width: 100%;
 }
 
 /*Footer*/
