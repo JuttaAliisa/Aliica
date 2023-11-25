@@ -153,6 +153,40 @@ main p {
         left: 55%;
         top: 10%;
     }
+    #gaming {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    #gaming h2 {
+        position: absolute;
+        left: 55%;
+        top: 10%;
+    }
+    #gaming button {
+        position: absolute;
+        left: 55%;
+        top: 75%;
+    }
+    #social-media {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    
+    #social-media h2 {
+        position: absolute;
+        left: 55%;
+        top: 10%;
+    }
+    
+    #social-media button {
+        position: absolute;
+        left: 55%;
+        top: 75%;
+    }
+}
+
 
 /*Footer*/
 footer {
@@ -162,4 +196,4 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
+    }
