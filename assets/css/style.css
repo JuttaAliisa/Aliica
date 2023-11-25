@@ -18,6 +18,22 @@ body {
     font-family: 'uguntu', sans-serif; 
 }
 
+button {
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: large;
+    font-family: 'Amatic SC', sans-serif;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
 /*Header*/
 header {
     background-color: #FFFFFF;
@@ -82,4 +98,13 @@ main {
 /*Footer*/
 footer {
     background-color: darkseagreen;
+    padding: 5px;
+}
+
+footer button {
+    float: right;
+}
+
+#footer-info {
+    vertical-align: baseline;
 }
