@@ -99,6 +99,7 @@ main {
 footer {
     background-color: darkseagreen;
     padding: 5px;
+    position: sticky;
 }
 
 footer button {
@@ -106,5 +107,5 @@ footer button {
 }
 
 #footer-info {
-    vertical-align: baseline;
+    float: left;
 }
