@@ -118,7 +118,7 @@ main img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 100%;
     margin-bottom: 10px;
 }
 
@@ -130,7 +130,7 @@ main p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
     margin-bottom: 10px;
     text-align: center;
 }
