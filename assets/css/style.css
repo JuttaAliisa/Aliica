@@ -137,6 +137,10 @@ main p {
 
 /*Big screens*/
 @media only screen and (min-width: 768px) {
+    hr {
+        display: none;
+    }
+    
     main img {
         width: 50%;
     }
@@ -155,17 +159,18 @@ main p {
     }
     #gaming {
         display: flex;
+        flex-direction: row-reverse;
         align-items: center;
         position: relative;
     }
     #gaming h2 {
         position: absolute;
-        left: 55%;
+        left: 38%;
         top: 10%;
     }
     #gaming button {
         position: absolute;
-        left: 55%;
+        left: 35%;
         top: 75%;
     }
     #social-media {
