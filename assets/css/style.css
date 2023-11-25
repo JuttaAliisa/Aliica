@@ -15,7 +15,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'ubuntu', sans-serif; 
+    font-family: 'ubuntu', sans-serif;
+    background-color: #cccccc;
 }
 
 button {
@@ -97,7 +98,7 @@ nav {
 
 /*Main content*/
 main {
-    background-color: #FFFFFF;
+    background-image: linear-gradient(white, darkseagreen);
     /*This is to push the footer down*/
     flex: 1 0 auto;
     margin-top: 61px;
@@ -109,15 +110,21 @@ main button {
     text-decoration: none;
 }
 
-/*Banner content*/
-#banner p {
-    background-color: #cccccc;
-    background-image: linear-gradient(white, green);
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
-#banner img {
-    width: 100%;
+/*Banner content*/
+
+#banner p {
+    background-color: transparent;
 }
+
+/*Gaming content*/
+
 
 /*Footer*/
 footer {
