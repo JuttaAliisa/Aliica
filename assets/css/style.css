@@ -135,6 +135,25 @@ main p {
     text-align: center;
 }
 
+/*Big screens*/
+@media only screen and (min-width: 768px) {
+    main img {
+        width: 50%;
+    }
+    main p {
+        width: 50%;
+    }
+    #banner {
+        display: flex;
+        align-items: center;
+    }
+    #banner h2 {
+        position: absolute;
+        left: 52%;
+        top: 10%;
+    }
+}
+
 /*Footer*/
 footer {
     background-color: darkseagreen;
