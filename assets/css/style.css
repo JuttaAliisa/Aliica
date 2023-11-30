@@ -46,6 +46,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     box-shadow: -1px 4px 17px 0px rgba(0, 0, 0, 1);
+    z-index: 9;
 }
 
 header a {
