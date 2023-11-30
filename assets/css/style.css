@@ -45,6 +45,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    box-shadow: -1px 4px 17px 0px rgba(0, 0, 0, 1);
 }
 
 header a {
@@ -141,6 +142,27 @@ main p {
 
 /*Big screens*/
 @media only screen and (min-width: 768px) {
+    
+    /*Header*/
+
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu li {
+        padding-left: 1rem;
+    }
+
+    .burger-menu-label {
+        display: none;
+    }
+
     hr {
         display: none;
     }
