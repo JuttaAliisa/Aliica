@@ -141,6 +141,17 @@ main p {
     text-align: center;
 }
 
+/*Footer*/
+footer {
+    background-color: darkseagreen;
+    padding: 5px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 25px 11px rgba(0, 0, 0, 0.57);
+}
+
 /*Big screens*/
 @media only screen and (min-width: 768px) {
     
@@ -163,6 +174,8 @@ main p {
     .burger-menu-label {
         display: none;
     }
+
+    /*Main content*/
 
     hr {
         display: none;
@@ -218,15 +231,8 @@ main p {
         left: 55%;
         top: 75%;
     }
-}
-
-
-/*Footer*/
-footer {
-    background-color: darkseagreen;
-    padding: 5px;
-    position: sticky;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    
+    #contact {
+        padding-bottom: 10px;
     }
+}
