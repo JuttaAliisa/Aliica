@@ -141,6 +141,12 @@ main p {
     text-align: center;
 }
 
+/*Contact page*/
+
+#contact {
+    
+}
+
 /*Footer*/
 footer {
     background-color: darkseagreen;
@@ -236,7 +242,7 @@ footer {
         padding-bottom: 10px;
     }
 
-    /*Gaming html*/
+    /*Gaming & Social*/
     
     #columns div{
         float: left;
