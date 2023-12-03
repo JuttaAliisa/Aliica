@@ -37,24 +37,40 @@
     <!--Main content-->
     <main>
         <section id="contact">
-        <form id="contact-form" method="POST" action="mailto:aliicaaciila@gmail.com">
-            <h2>Contact</h2>
-            <p>whatever you have in mind -> Shoot me a message</p>
-            <label for="first_name">First Name</label>
-            <input type="text" name="first_name" id="first_name" class="text-input" required>
-            <br>
-            <label for="last_name">Last Name</label>
-            <input type="text" name="last_name" id="last_name" class="text-input" required>
-            <br>
-            <label for="email_address">Email Address</label>
-            <input type="email" name="email_address" id="email_address" class="text-input" required>
-            <br>
-            <label for="message">Your message</label>
-            <input type="text" name="message" id="message" class="text-input" required>
-            <br>
+            <div>
+                <h2>Contact</h2>
+                <p>whatever you have in mind -> Shoot me a message</p>
+            </div>
+            <div>
+                <form id="contact-form" method="POST" action="mailto:aliicaaciila@gmail.com">
+                    <div class="formlabel">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="forminput">
+                        <input type="text" name="first_name" id="first_name" required>
+                    </div>
+                    <div class="formlabel">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                    <div class="forminput">
+                        <input type="text" name="last_name" id="last_name" required>
+                    </div>
+                    <div class="formlabel">
+                        <label for="email_address">Email Address</label>
+                    </div>
+                    <div class="forminput">
+                        <input type="email" name="email_address" id="email_address" required>
+                    </div>
+                    <div class="formlabel">
+                        <label for="message">Your message</label>
+                    </div>
+                    <div class="forminput">
+                        <input type="text" name="message" id="messge" required>
+                    </div>
+                    <button type="submit">SEND</button>
 
-            <button type="submit">SEND</button>
-        </form>
+                </form>
+            </div>
         </section>
     </main>
 
