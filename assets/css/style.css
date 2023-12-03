@@ -157,13 +157,20 @@ main p {
 }
 
 .formlabel {
-    margin: 10px;
+    margin: 5px;
+    text-align: left;
 }
 input {
-    width: 90%;
+    width: 100%;
+    margin: 5px;
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
 }
-.forminput {
+#message {
+    height: 200px;
 }
+
 
 /*Footer*/
 footer {
