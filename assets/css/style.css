@@ -145,6 +145,7 @@ main p {
 
 #contact {
     box-sizing: border-box;
+    margin: 5px;
 }
 
 #contact-form {
