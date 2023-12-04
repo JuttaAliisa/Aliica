@@ -37,3 +37,53 @@ The footer section includes copyright information and button for Youtube Live st
 ### Content pages
 
 Gaming and social media pages are content pages of this site. Gaming includes the customers social media outlets and descriptions for his gaming content. The texts are descriptive and telling a story about his gaming before and now. Each channel has it's own header, relevant social media logo, description and link to the platform. Each link will open to a new tab to make sure the user stays on the site
+
+Missing a picture!
+
+### Contact form
+
+This simple contact form is used to contact Aliica. All users can use the same form. The form is transperent showcasing the beautiful gradient backround. All info is mandatory and the last section is free text for any message the user might have.
+
+![contactform](assets/pictures/contactform.png)
+
+### upcoming features
+
+The content pages will have some imagenery once Aliica has produced suitable mediaset the will complement the overall look of the website
+
+# Testing
+
+Validator Testing
+HTML
+No errors were returned when passing through the official W3C validator
+CSS
+No errors were found when passing through the official (Jigsaw) validator
+
+### Fixed bugs
+
+The only bug found during the project was "The element button must not appear as a descendant of the a element." This bug was fixed. The developer had no idea this was not valid HTML and the buttons were actually working before the fix.
+
+![thebug](assets/pictures/thebug.png)
+
+No unfixed bugs remain.
+
+### Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://juttaaliisa.github.io/Aliica/index.html
+
+### Credits
+
+# Content
+The tects are produced by Jutta Helin
+The header and footer design is inspired by the Code Institute walk through project "Love Running"
+The icons in the footer were taken from Font Awesome
+Instructions and inspiration (but no direct copy of the code) has bwwn searched from https://stackoverflow.com/ and <https://www.w3schools.com/> together with Code Institute tutorials from full stack developmen course.
+
+# Media
+Pictures are created by Ilmari "Aliica" Helin
+Fonts from Google fonts
+Youtube colours from <https://www.youtube.com/howyoutubeworks/resources/brand-resources/?_gl=1*6uwtl9*_up*MQ..*_ga*MTYyNTE2NTY4My4xNzAxNjE3MTc2*_ga_M0180HEFCY*MTcwMTYxNzE3NS4xLjAuMTcwMTYxNzI3MC4wLjAuMA..#logos-icons-and-colors>
+Responsive picture in readme from <https://ui.dev/>
