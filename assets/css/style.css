@@ -141,6 +141,12 @@ main p {
     text-align: center;
 }
 
+/*Home page*/
+
+#homepage {
+    margin: 5px;
+}
+
 /*Content pages*/
 
 .icon {
