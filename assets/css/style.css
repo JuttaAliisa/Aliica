@@ -141,6 +141,12 @@ main p {
     text-align: center;
 }
 
+/*Content pages*/
+
+.icon {
+    font-size: xx-large;
+}
+
 /*Contact page*/
 
 #contact {
@@ -275,5 +281,9 @@ footer {
 
     #columns p {
         width: 100%;
+    }
+
+    .icon {
+        font-size: +400%;
     }
 }
