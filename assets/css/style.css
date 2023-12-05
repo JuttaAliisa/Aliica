@@ -189,6 +189,19 @@ input {
     height: 200px;
 }
 
+/*Thank you page*/
+#thankyou {
+    height: 90%;
+    width: 100%;
+    position: relative;
+    padding: 20%;
+}
+
+#thankyou h1 {
+    text-align: center;
+    padding: 0;
+}
+
 
 /*Footer*/
 footer {

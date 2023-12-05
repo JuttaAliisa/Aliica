@@ -34,7 +34,6 @@
     />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-
   <body>
     <!--Header section-->
     <header>
@@ -55,46 +54,13 @@
 
     <!--Main content-->
     <main>
-      <section id="contact">
-        <div>
-          <h2>Contact</h2>
-          <p>Whatever you have in mind -> Shoot me a message</p>
-        </div>
-        <div>
-          <form id="contact-form" method="GET" action="thankyou.html">
-            <div class="formlabel">
-              <label for="first_name">First Name</label>
-            </div>
-            <div class="forminput">
-              <input type="text" name="first_name" id="first_name" required />
-            </div>
-            <div class="formlabel">
-              <label for="last_name">Last Name</label>
-            </div>
-            <div class="forminput">
-              <input type="text" name="last_name" id="last_name" required />
-            </div>
-            <div class="formlabel">
-              <label for="email_address">Email Address</label>
-            </div>
-            <div class="forminput">
-              <input
-                type="email"
-                name="email_address"
-                id="email_address"
-                required
-              />
-            </div>
-            <div class="formlabel">
-              <label for="message">Your message</label>
-            </div>
-            <div class="forminput">
-              <input type="text" name="message" id="message" required />
-            </div>
-            <button type="submit">SEND</button>
-          </form>
-        </div>
-      </section>
+      <div id="thankyou">
+        <h1>Thank you!</h1>
+        <p>We have received your message and you will hear from us shortly!</p>
+        <button onclick="location.replace('index.html')">
+          Back to front page
+        </button>
+      </div>
     </main>
 
     <!--Footer section-->
