@@ -32,6 +32,7 @@ button {
     border: none;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
 }
+
 button:hover {
     background-color: #FFFFFF;
     color: black;
@@ -87,7 +88,7 @@ nav {
     display: none;
     top: 100%;
 }
-    
+
 /*Navbar toggle*/
 #burger-menu:checked~nav {
     display: block;
@@ -171,6 +172,7 @@ main p {
     margin: 5px;
     text-align: left;
 }
+
 input {
     width: 100%;
     margin: 5px;
@@ -178,6 +180,7 @@ input {
     padding: 5px;
     border-radius: 5px;
 }
+
 #message {
     height: 200px;
 }
@@ -196,7 +199,7 @@ footer {
 
 /*Big screens*/
 @media only screen and (min-width: 768px) {
-    
+
     /*Header*/
 
     nav {
@@ -222,65 +225,379 @@ footer {
     hr {
         display: none;
     }
-    
+
     main img {
         width: 50%;
     }
+
     main p {
         width: 50%;
         padding: 5%;
     }
+
     #banner {
         display: flex;
         align-items: center;
         position: relative;
     }
+
     #banner h2 {
         position: absolute;
         left: 70%;
         top: 10%;
     }
+
     #gaming {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
         position: relative;
     }
+
     #gaming h2 {
         position: absolute;
         left: 22%;
         top: 10%;
     }
+
     #gaming button {
         position: absolute;
         left: 20%;
         top: 75%;
     }
+
     #social-media {
         display: flex;
         align-items: center;
         position: relative;
     }
-    
+
     #social-media h2 {
         position: absolute;
         left: 69%;
         top: 10%;
     }
-    
+
     #social-media button {
         position: absolute;
         left: 69%;
         top: 75%;
     }
-    
+
     #contact {
         padding-bottom: 10px;
     }
 
     /*Gaming & Social*/
-    
-    #columns div{
+
+    #columns div {
+        float: left;
+        width: 33.33%;
+        padding-top: 10vh;
+    }
+
+    #columns p {
+        width: 100%;
+    }
+
+    .icon {
+        font-size: +400%;
+    }
+}
+
+/*Google fonts Uguntu and Amatic-CS*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+/*The wildacard selector to override browser default styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*General Styles*/
+body {
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'ubuntu', sans-serif;
+    background-color: #cccccc;
+}
+
+button {
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: large;
+    font-family: 'Amatic SC', sans-serif;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    border: none;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+/*Header*/
+header {
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    box-shadow: -1px 4px 17px 0px rgba(0, 0, 0, 1);
+    z-index: 9;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-family: 'Amatic SC', sans-serif;
+    letter-spacing: 2px;
+    padding-left: 10%;
+    font-size: 300%;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+h2 {
+    font-family: 'Amatic SC', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+hr {
+    margin: 10px 10%;
+}
+
+/*Navbar styling*/
+nav {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: right;
+    padding-right: 5%;
+    display: none;
+    top: 100%;
+}
+
+/*Navbar toggle*/
+#burger-menu:checked~nav {
+    display: block;
+}
+
+#burger-menu {
+    display: none;
+}
+
+.burger-menu-label {
+    font-size: 2rem;
+    padding-right: 10%;
+}
+
+.yourpage {
+    text-decoration: underline;
+}
+
+/*Main content*/
+main {
+    background-image: linear-gradient(white, darkseagreen);
+    /*This is to push the footer down*/
+    flex: 1 0 auto;
+    margin-top: 61px;
+}
+
+main button {
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+}
+
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+main h2 {
+    margin-top: 10px;
+}
+
+main p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*Home page*/
+
+#homepage {
+    margin: 5px;
+}
+
+/*Content pages*/
+
+.icon {
+    font-size: xx-large;
+}
+
+/*Contact page*/
+
+#contact {
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+#contact-form {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.formlabel {
+    margin: 5px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    margin: 5px;
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#message {
+    height: 200px;
+}
+
+
+/*Footer*/
+footer {
+    background-color: darkseagreen;
+    padding: 5px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 25px 11px rgba(0, 0, 0, 0.57);
+}
+
+/*Big screens*/
+@media only screen and (min-width: 768px) {
+
+    /*Header*/
+
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu li {
+        padding-left: 1rem;
+    }
+
+    .burger-menu-label {
+        display: none;
+    }
+
+    /*Main content*/
+
+    hr {
+        display: none;
+    }
+
+    main img {
+        width: 50%;
+    }
+
+    main p {
+        width: 50%;
+        padding: 5%;
+    }
+
+    #banner {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    #banner h2 {
+        position: absolute;
+        left: 70%;
+        top: 10%;
+    }
+
+    #gaming {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        position: relative;
+    }
+
+    #gaming h2 {
+        position: absolute;
+        left: 22%;
+        top: 10%;
+    }
+
+    #gaming button {
+        position: absolute;
+        left: 20%;
+        top: 75%;
+    }
+
+    #social-media {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    #social-media h2 {
+        position: absolute;
+        left: 69%;
+        top: 10%;
+    }
+
+    #social-media button {
+        position: absolute;
+        left: 69%;
+        top: 75%;
+    }
+
+    #contact {
+        padding-bottom: 10px;
+    }
+
+    /*Gaming & Social*/
+
+    #columns div {
         float: left;
         width: 33.33%;
         padding-top: 10vh;
