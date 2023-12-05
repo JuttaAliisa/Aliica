@@ -1,12 +1,12 @@
 # Welcome
 
-This is my first independent project as a up and coming full stack developer, Studying towards my Diploma with Code Institute. This project has been produced using html and css.
+This is my first independent project as a up and coming full stack developer, Studying towards my Diploma with Code Institute.
 
-This website has been created for a content creator Aliica, who produces content for multible platforms. The main goal is to collect all the channels together to be easily found when the consumer is looking for it. The request from the cutomer is to create more detailed and personal version of the popular linktr.ee website used by many content creators.
+This website has been created for a content creator Aliica, who produces content for multible platforms. The main goal is to collect all the channels together to be easily found when the consumer is looking for it. The request from the customer is to create more detailed and personal version of the popular linktr.ee website used by many content creators.
 
 The website bring together all the information about this creator and more can be easily added if the portfolio grows.
 
-![Screenshot](assets/pictures/overall.png)
+![Screenshot](docs/design/overall.png)
 
 # Features
 
@@ -16,26 +16,26 @@ The website bring together all the information about this creator and more can b
 - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. Active page is indicated with underline for the user to easily identify the page they are in at the moment.
 - Smaller screens have the navigation behing the well know "burger" icon that is familiar to the users.
 
-![navbar](assets/pictures/navbar.png)
+![navbar](docs/design/navbar.png)
 
 ### Landing page
 
 - Landing page / frontpage starsts with a picture of the creator together with shor introductory section. 
 - The meaning of the section is to give a short summary of the content of the page and reassure the the user has landed to the correct page, through the picture of the familiar face and text.
 
-![landingpage](assets/pictures/landingpage.png)
+![landingpage](docs/design/landingpage.png)
 
 - The content section of the landing page gives a short instroduvtion to the available pages, together with buttons to directly enter the page. This gives the user the idea of the content for the said page and makes it easy to go further in to the site. 
 - All the buttons have a hover feature, giving the user feedback about the clickability of the link
 
-![content](assets/pictures/content.png)
+![content](docs/design/content.png)
 
 ### Footer
 
 - The footer section includes copyright information and button for Youtube Live stream. Youtube is the main platform of the customer and when reasonable this link is offered. 
 - The footer remain the same through the whole website and it becomes visible when the user reaches the end of the page (scroll down)
 
-![footer](assets/pictures/footer.png)
+![footer](docs/design/footer.png)
 
 ### Content pages
 
@@ -48,7 +48,7 @@ Missing a picture!
 
 This simple contact form is used to contact Aliica. All users can use the same form. The form is transperent showcasing the beautiful gradient backround. All info is mandatory and the last section is free text for any message the user might have.
 
-![contactform](assets/pictures/contactform.png)
+![contactform](docs/design/contactform.png)
 
 ### upcoming features
 
@@ -66,14 +66,14 @@ This simple contact form is used to contact Aliica. All users can use the same f
   - SEO 100
   - performance 48/100 mainly because of bad image optimazation (next sprint agenda)
   
-  ![disgnostics](assets/pictures/diagnostics.png)
+  ![disgnostics](docs/testing/diagnostics.png)
   
 ### Fixed bugs
 
 - The only bug found during the project was "The element button must not appear as a descendant of the a element." This bug was fixed. The developer had no idea this was not valid HTML and the buttons were actually working before the fix.
 - Some Javascript was necessary to use to quick fix this and the fix is not perfect, but the page was styled using buttons and there was not enough time to rewrite the whole code aroun a-element, the fix is in place until further notice.
 
-![thebug](assets/pictures/thebug.png)
+![thebug](docs/testing/thebug.png)
 
 No unfixed bugs remain.
 
