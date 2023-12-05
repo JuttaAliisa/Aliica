@@ -60,7 +60,14 @@ This simple contact form is used to contact Aliica. All users can use the same f
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
+- Lighthouse
+  - Accessibility 100
+  - Best practises 100
+  - SEO 100
+  - performance 48/100 mainly because of bad image optimazation (next sprint agenda)
+  
+  ![disgnostics](assets/pictures/diagnostics.png)
+  
 ### Fixed bugs
 
 - The only bug found during the project was "The element button must not appear as a descendant of the a element." This bug was fixed. The developer had no idea this was not valid HTML and the buttons were actually working before the fix.
