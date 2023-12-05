@@ -64,6 +64,7 @@ This simple contact form is used to contact Aliica. All users can use the same f
 ### Fixed bugs
 
 - The only bug found during the project was "The element button must not appear as a descendant of the a element." This bug was fixed. The developer had no idea this was not valid HTML and the buttons were actually working before the fix.
+- Some Javascript was necessary to use to quick fix this and the fix is not perfect, but the page was styled using buttons and there was not enough time to rewrite the whole code aroun a-element, the fix is in place until further notice.
 
 ![thebug](assets/pictures/thebug.png)
 
@@ -72,6 +73,7 @@ No unfixed bugs remain.
 ### Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
+
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
@@ -80,12 +82,14 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 ### Credits
 
 # Content
+
 - The tects are produced by Jutta Helin
 - The header and footer design is inspired by the Code Institute walk through project "Love Running"
 - The icons in the footer were taken from Font Awesome
 - Instructions and inspiration (but no direct copy of the code) has bwwn searched from <https://stackoverflow.com/> and <https://www.w3schools.com/> together with Code Institute tutorials from full stack developmen course.
 
 # Media
+
 - Pictures are created by Ilmari "Aliica" Helin
 - Fonts from Google fonts
 - Youtube colours from [Youtube resources](https://www.youtube.com/howyoutubeworks/resources/brand-resources/?_gl=1*6uwtl9*_up*MQ..*_ga*MTYyNTE2NTY4My4xNzAxNjE3MTc2*_ga_M0180HEFCY*MTcwMTYxNzE3NS4xLjAuMTcwMTYxNzI3MC4wLjAuMA..#logos-icons-and-colors)
