@@ -47,6 +47,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     box-shadow: -1px 4px 17px 0px rgba(0, 0, 0, 1);
+    /*to make sure content stays under the header when scrolling*/
     z-index: 9;
 }
 
@@ -68,6 +69,7 @@ h1 {
     list-style-type: none;
 }
 
+/*Padding to increase usability*/
 li {
     padding: 5px;
 }
@@ -114,7 +116,7 @@ nav {
 /*Main content*/
 main {
     background-image: linear-gradient(white, darkseagreen);
-    /*This is to push the footer down*/
+    /*to push the footer down*/
     flex: 1 0 auto;
     margin-top: 61px;
 }
@@ -149,6 +151,7 @@ main p {
 /*Home page*/
 
 #homepage {
+    /*For visual reasons*/
     margin: 5px;
 }
 
@@ -186,6 +189,7 @@ input {
 }
 
 #message {
+    /*To make more visible room for content*/
     height: 200px;
 }
 
@@ -199,6 +203,7 @@ input {
 
 #thankyou h1 {
     text-align: center;
+    /*To clear previously set padding*/
     padding: 0;
 }
 
@@ -266,6 +271,7 @@ footer {
 
     #gaming {
         display: flex;
+        /*to display content in reverse order*/
         flex-direction: row-reverse;
         align-items: center;
         position: relative;
